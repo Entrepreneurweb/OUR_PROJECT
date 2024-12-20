@@ -693,7 +693,7 @@ int main() {
         exit(1);
     }
 
-    printf("Serveur en écoute, en attente de connexions...\n");
+    printf("THE SERVER IS LISTENING ...\n");
 
 
 // ma boucle d'acceptation infinie

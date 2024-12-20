@@ -345,7 +345,7 @@ void Play_Game(SOCKET socket, char* MessageBuffer, int Check_Question_Load) {
     ClearScreen();  // Clear screen before displaying results
 
     DecoratedTitle("YOU GOT:");
-    printf("\033[1;32m%d\033[0m\n", Player_Note);
+    printf("\033[1;32m%d OVER 100 \033[0m\n", Player_Note);
 
     DecoratedTitle("You are now Rank:");
     printf("\033[1;32m#%s with a TotalScore of: %s\033[0m\n", Rank_Buffer, Total_Player_Buffer);
@@ -433,9 +433,6 @@ void Play_Game(SOCKET socket, char* MessageBuffer, int Check_Question_Load) {
 
     printf("\033[1;32mQuestion successfully added!\033[0m\n");
 }
-
-
-
 
 
 
